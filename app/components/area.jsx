@@ -118,7 +118,7 @@ export default function Area() {
 
       {/* Into */}
       <section className="w-full px-5 py-7 md:py-20 md:px-20 bg-clrTitle">
-        <p className="font-normal text-3xl md:text-7xl text-[#ffffff] leading-10 tracking-wide text-justify">
+        <p className="font-normal text-3xl md:text-7xl text-[#ffffff] leading-10 tracking-wide">
           I use my knowledge of design and development to create online
           experiences that make people feel good and help them connect with
           others.
