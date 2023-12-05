@@ -130,26 +130,31 @@ export default function Area() {
         <h1 className="text-center mb-10 text-6xl text-clrTitle">ABOUT ME</h1>
         <div className="flex flex-col md:flex-row md:justify-between">
           <div>
-            <Image src={Profile} alt="Profile" width="1000" height="500" />
+            <Image src={Profile} alt="Profile" width="1000" height="700" />
           </div>
           <div className="mt-4 md:mt-0 md:ml-10">
             <h1 className="text-3xl md:text-5xl font-medium text-clrContentTitle mb-3">
               A brief intro, who am I?
             </h1>
             <p className="text-xl text-clrParagraph leading-8 -tracking-wider mb-3">
-              I am an independent frontend developer, UI/UX designer and creator
-              based in Colombo Sri Lanka.
+              Hello! I'm Dumindu Bandara, an enthusiastic undergraduate pursuing
+              a degree in Information Technology at the Sri Lanka Institute of
+              Information Technology, situated in the vibrant community of
+              Malabe, Sri Lanka.
             </p>
             <p className="text-xl text-clrParagraph leading-8 -tracking-wider mb-3">
-              I specialize in crafting elevated, intuitive, and minimalistic
-              designs for startups and small businesses to help them stand out
-              in the digital landscape with a powerful impact.
+              Passionate about the multifaceted world of technology, my focus
+              lies in web design, development, and UI/UX design. I thrive on
+              staying at the forefront of emerging trends, constantly seeking
+              opportunities to learn and integrate new technologies into my
+              skill set.
             </p>
             <p className="text-xl text-clrParagraph leading-8 -tracking-wider mb-3">
-              {' '}
-              😎When I am not developing or designing, I enjoy creating videos
-              that talk about frontend development, productivity and design on
-              LinkedIn
+              What captivates me most is the fusion of creativity and
+              functionality. I am dedicated to creating seamless, user-centric
+              digital experiences by leveraging my skills in design and coding.
+              Join me on this exciting journey as I continue to explore and
+              contribute to the ever-evolving landscape of web and UI/UX design.
             </p>
           </div>
         </div>
@@ -224,9 +229,7 @@ export default function Area() {
                   className="flex my-3"
                 >
                   <Image src={Email} alt="#" className="mr-3" />
-                  <Link
-                    href="mailto:dumindubandara969@gmail.com"
-                  >
+                  <Link href="mailto:dumindubandara969@gmail.com">
                     dumindubandara969@gmail.com
                   </Link>
                 </motion.li>
@@ -254,7 +257,10 @@ export default function Area() {
                   className="flex my-3"
                 >
                   <Image src={Linkedin} alt="#" className="mr-3" />
-                  <Link href="https://www.linkedin.com/in/dumindulakshanbandara" target="_blank">
+                  <Link
+                    href="https://www.linkedin.com/in/dumindulakshanbandara"
+                    target="_blank"
+                  >
                     Linkedin
                   </Link>
                 </motion.li>
@@ -264,7 +270,10 @@ export default function Area() {
                   className="flex"
                 >
                   <Image src={GitHub} alt="#" className="mr-3" />
-                  <Link href="https://github.com/DuminduBandara" target="_blank">
+                  <Link
+                    href="https://github.com/DuminduBandara"
+                    target="_blank"
+                  >
                     GitHub
                   </Link>
                 </motion.li>
@@ -282,7 +291,7 @@ export default function Area() {
               >
                 Malabe, Sri Lanka
               </Link>
-              <div className='overflow-hidden rounded-xl mt-5'>
+              <div className="overflow-hidden rounded-xl mt-5">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.079365188318!2d79.94483254423363!3d6.9043628129019465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256d59601df81%3A0x31a1dd96e8d49ba!2sMalabe!5e0!3m2!1sen!2slk!4v1701706615258!5m2!1sen!2slk"
                   width="400"
