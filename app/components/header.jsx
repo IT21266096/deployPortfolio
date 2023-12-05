@@ -26,13 +26,13 @@ export default function Header() {
     },
     {
       id: 3,
-      name: 'Projects',
-      path: 'projects',
+      name: 'Resume',
+      path: 'resume',
     },
     {
       id: 4,
-      name: 'Resume',
-      path: 'resume',
+      name: 'Projects',
+      path: 'projects',
     },
     {
       id: 5,
@@ -100,7 +100,7 @@ export default function Header() {
         </div>
         <button
           onClick={() => setToggleNav(!toggleNav)}
-          className="fixed right-10 top-7 z-[100] hover:scale-110 duration-700"
+          className="fixed right-10 top-7 z-[100] hover:scale-110 duration-700 outline-none"
         >
           <Hamburger toggleNav={toggleNav} />
         </button>
