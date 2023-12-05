@@ -1,0 +1,51 @@
+{
+    "expertise": [
+      {
+        "id": 1,
+        "name": "Web Development"
+      },
+      {
+        "id": 2,
+        "name": "Web Design"
+      },
+      {
+        "id": 3,
+        "name": "Wireframing"
+      },
+      {
+        "id": 4,
+        "name": "UI/UX Design"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "name": "HTML & CSS"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
+      },
+      {
+        "id": 3,
+        "name": "ReactJS"
+      },
+      {
+        "id": 4,
+        "name": "NextJS"
+      },
+      {
+        "id": 5,
+        "name": "Framer Motion"
+      },
+      {
+        "id": 6,
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 7,
+        "name": "Figma"
+      }
+    ]
+  }
+  
