@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "name": "Admin Panel",
+        "name": "ADMIN PANEL",
         "type": "Full Stack Development",
         "year": 2022,
         "tech": "MERN | Material UI | NIVO",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "name": "NETWORK TOWERS MANAGEMENT SYSTEM",
+        "name": "TOWERS MANAGEMENT SYSTEM",
         "type": "Full Stack Development",
         "year": 2022,
         "tech": "MERN | Material UI | NIVO",
