@@ -30,6 +30,7 @@ export default function App() {
 
   return (
     <section className="w-full px-5 py-10 md:py-20 md:px-20" id="projects">
+      <h1 className="text-center mb-10 text-6xl text-clrTitle">PROJECTS</h1>
       <Tabs
         aria-label="Options"
         items={ProjectsData}
@@ -58,7 +59,7 @@ export default function App() {
                 <CardBody className="overflow-visible py-2 flex flex-col gap-2">
                   <h4 className="font-bold text-lg">{item.name}</h4>
                   <p className="text-tiny uppercase">{item.type}</p>
-                  <div className="flex flex-col md-flex-row gap-1 md:gap-4">
+                  <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-clrTitle">
                     <small className="text-sm">{item.year}</small>
                     <small className="text-sm font-semibold">{item.tech}</small>
                   </div>
