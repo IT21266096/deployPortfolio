@@ -53,7 +53,7 @@ export default function App() {
         }}
       >
         <Tab key="Web Applications" title="Web Applications">
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-3">
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {ProjectsData.map((item, index) => (
               <Card className="w-full py-4" key={index}>
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-center overflow-hidden">
