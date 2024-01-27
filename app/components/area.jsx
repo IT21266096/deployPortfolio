@@ -12,6 +12,8 @@ import HeroVector from '../assets/heroVector.svg';
 import Profile from '../assets/profile.svg';
 import Email from '../assets/envelope-open-regular.svg';
 import GitHub from '../assets/github.svg';
+import Behance from '../assets/behance.svg';
+import Pinterest from '../assets/pinterest-p.svg';
 import Phone from '../assets/phone-solid.svg';
 import Linkedin from '../assets/linkedin-in.svg';
 import UpRightArrow from '../assets/uprightarrow.svg';
@@ -267,7 +269,7 @@ export default function Area() {
                 <motion.li
                   variants={lgTextVarient}
                   whileHover="lgTextHover"
-                  className="flex"
+                  className="flex mb-3"
                 >
                   <Image src={GitHub} alt="#" className="mr-3" />
                   <Link
@@ -275,6 +277,32 @@ export default function Area() {
                     target="_blank"
                   >
                     GitHub
+                  </Link>
+                </motion.li>
+                <motion.li
+                  variants={lgTextVarient}
+                  whileHover="lgTextHover"
+                  className="flex mb-3"
+                >
+                  <Image src={Behance} alt="#" className="mr-3" />
+                  <Link
+                    href="https://www.behance.net/dumindulakshan1"
+                    target="_blank"
+                  >
+                    Behance
+                  </Link>
+                </motion.li>
+                <motion.li
+                  variants={lgTextVarient}
+                  whileHover="lgTextHover"
+                  className="flex mb-3"
+                >
+                  <Image src={Pinterest} alt="#" className="mr-3" />
+                  <Link
+                    href="http://pinterest.com/lakshand969"
+                    target="_blank"
+                  >
+                    Pinterest
                   </Link>
                 </motion.li>
               </ul>
