@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 import Header from './header';
-import Projects from './projects';
 import Resume from './resume';
 
 import HeroVector from '../assets/heroVector.svg';
@@ -17,7 +16,7 @@ import Phone from '../assets/phone-solid.svg';
 import Linkedin from '../assets/linkedin-in.svg';
 import UpRightArrow from '../assets/uprightarrow.svg';
 import Code from '../assets/code.svg';
-import Tabs from './tabs';
+import Projects from './tabs';
 
 export default function Area() {
   const buttonHover = {
@@ -165,9 +164,7 @@ export default function Area() {
       <Resume />
 
       {/* Projects */}
-      {/* <Projects /> */}
-
-      <Tabs/>
+      <Projects/>
 
       {/* contact */}
       <section className="w-full px-5 py-10 md:py-20 md:px-20" id="contact">
