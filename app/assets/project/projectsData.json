@@ -5,7 +5,7 @@
         "type": "Front End Development",
         "year": 2023,
         "tech": "Next JS | Tailwind CSS | Framer Motion",
-        "pic": "/images/project9.svg",
+        "pic": "/images/port2.png",
         "link": "https://github.com/IT21266096/deployPortfolio.git",
         "live": "https://deploy-portfolio-tau.vercel.app/",
         "description": "I recently designed and developed my 2023 portfolio, leveraging state-of-the-art technologies to showcase my latest work. For the frontend, I utilized Next.js, a powerful React framework that enhances performance and scalability. Tailwind CSS was employed for seamless styling, ensuring a sleek and modern design that aligns with the latest design trends. To add a layer of sophistication and interactivity, I incorporated Framer Motion for smooth animations and transitions, providing visitors with an engaging and dynamic browsing experience. This portfolio reflects my commitment to staying current with cutting-edge technologies and showcases my proficiency in creating a visually appealing and interactive presentation using Next.js, Tailwind CSS, and Framer Motion."
@@ -16,7 +16,7 @@
         "type": "Full Stack Development",
         "year": 2022,
         "tech": "MERN | Material UI | NIVO",
-        "pic": "/images/project1.svg",
+        "pic": "/images/dash.png",
         "link": "https://github.com/lakshan969Github/Mern-admin-borad.git",
         "live": "",
         "description": "I autonomously conceived and executed the design and development of a sophisticated Admin Dashboard crafted for efficient clothing shop management. Employing the MERN stack, I utilized ReactJS with Material UI for a modern frontend, complemented by a robust backend powered by Node.js and Express.js, facilitating seamless communication through REST APIs. Nivo charts were integrated to deliver insightful data visualization. This solo endeavor showcases my proficiency in full-stack development, resulting in a powerful and user-friendly Admin Dashboard that enhances the operational efficiency of clothing shops."
@@ -27,7 +27,7 @@
         "type": "Full Stack Development",
         "year": 2022,
         "tech": "MERN | Tailwind CSS",
-        "pic": "/images/project2.svg",
+        "pic": "/images/ecom.png",
         "link": "https://github.com/DuminduBandara/EcommerceSystem.git",
         "live": "",
         "description": "I single-handedly conceptualized and executed the design and development of a dynamic e-commerce website for an online clothing shop, employing the MERN stack. For the frontend, ReactJS was employed in tandem with Tailwind CSS, ensuring a responsive and visually appealing user interface. On the backend, Node.js and Express.js were leveraged to establish a robust foundation, with REST APIs facilitating seamless communication. Authentication was fortified using JSON Web Tokens (JWT), ensuring a secure and user-friendly experience. This project showcases my prowess in end-to-end development, highlighting a fully functional and aesthetically pleasing online clothing store that I constructed independently."
@@ -38,7 +38,7 @@
         "type": "Front End Development",
         "year": 2022,
         "tech": "React JS | Tailwind CSS",
-        "pic": "/images/project3.svg",
+        "pic": "/images/weather.png",
         "link": "https://github.com/lakshan969Github/React-Weather-App.git",
         "live": "https://345deb31.react-weather-app-b39.pages.dev/",
         "description": "In a solo initiative, I conceived and brought to life a comprehensive weather application designed to provide accurate forecasts for cities worldwide. Leveraging ReactJS and Tailwind CSS for the frontend, I ensured a sleek and responsive user interface. The application seamlessly retrieves weather details from the OpenWeather API, delivering real-time and reliable forecasts. This project stands as a testament to my proficiency in frontend development and API integration, resulting in an intuitive weather application that empowers users to access accurate weather information for any city globally."
@@ -49,7 +49,7 @@
         "type": "Full Stack Development",
         "year": 2022,
         "tech": "MERN | Material UI | NIVO",
-        "pic": "/images/project5.svg",
+        "pic": "/images/ntms.png",
         "link": "https://github.com/DuminduBandara/Network-Towers-Management-System.git",
         "live": "",
         "description": "In my second year at university, I undertook the design and development of a Network Towers Management System tailored for efficient information management of network towers. Leveraging the MERN stack, I utilized ReactJS with Material UI for the frontend, ensuring a modern and intuitive user interface. On the backend, Node.js and Express.js formed the robust foundation, facilitating seamless communication through REST APIs. Authentication was reinforced using JSON Web Tokens (JWT), enhancing the system's security. To visually represent data, I integrated Nivo charts, offering insightful graphical representations. This project reflects my adeptness in full-stack development, demonstrating the successful creation of a comprehensive network towers management system within the academic realm."
@@ -60,7 +60,7 @@
         "type": "Front End Development",
         "year": 2021,
         "tech": "HTML | CSS | Bootstrap | JavaScript",
-        "pic": "/images/project4.svg",
+        "pic": "/images/rest.png",
         "link": "https://github.com/lakshan969Github/Bootstrap-FoodOrdering-Site.git",
         "live": "https://food-rest.netlify.app/",
         "description": "Independently crafting a robust solution, I conceptualized and developed an online food ordering system utilizing HTML, CSS, JavaScript, and Bootstrap. The user interface was meticulously designed for a seamless and intuitive experience, employing the responsiveness of Bootstrap to enhance accessibility across devices. Leveraging JavaScript, I implemented dynamic functionalities to facilitate a smooth ordering process. The resulting online platform showcases my proficiency in front-end development, offering users an efficient and visually appealing way to explore and place food orders."
@@ -71,7 +71,7 @@
         "type": "Full Stack Development",
         "year": 2021,
         "tech": "HTML | CSS | Bootstrap | JavaScript | PHP",
-        "pic": "/images/project6.svg",
+        "pic": "/images/hunter.png",
         "link": "https://github.com/lakshan969Github/CFT-Challenge.git",
         "live": "",
         "description": "In collaboration with fellow university students, I played a pivotal role in the development of an engaging Cryptography Project designed as an educational game to impart knowledge about cryptography. Leveraging HTML, CSS, JavaScript, and PHP technologies, we crafted an interactive learning experience. The user interface, designed with HTML and CSS, ensured a visually appealing and user-friendly platform. The dynamic features implemented through JavaScript enhanced interactivity, creating an immersive learning environment for students. On the server side, PHP was utilized to manage data processing and storage seamlessly. This collaborative effort resulted in a comprehensive educational game, showcasing our collective proficiency in web development and our commitment to providing an innovative and interactive educational tool for fellow students."
@@ -82,7 +82,7 @@
         "type": "Front End Development",
         "year": 2021,
         "tech": "React JS | Tailwind CSS | Framer Motion",
-        "pic": "/images/project7.svg",
+        "pic": "/images/port1.png",
         "link": "https://github.com/lakshan969Github/React-Portfolio.git",
         "live": "https://e63a9ce5.react-portfolio-27w.pages.dev/",
         "description": "I independently designed and developed my personal portfolio, utilizing cutting-edge technologies to showcase my skills and projects. The frontend was crafted with ReactJS, ensuring a dynamic and responsive user interface. Tailwind CSS was employed for styling, providing a sleek and modern design that enhances the overall user experience. To add a layer of sophistication to the portfolio, I incorporated Framer Motion for seamless animations and transitions. This project reflects my commitment to staying at the forefront of web development trends and showcases my proficiency in creating visually appealing and interactive portfolios using ReactJS, Tailwind CSS, and Framer Motion."
@@ -93,7 +93,7 @@
         "type": "Full Stack Development",
         "year": 2021,
         "tech": "HTML | CSS | JavaScript | PHP",
-        "pic": "/images/project8.svg",
+        "pic": "/images/bank.png",
         "link": "https://github.com/lakshan969Github/Online-Banking-System.git",
         "live": "",
         "description": "In my first year at university, I undertook the design and development of an Online Banking System as a comprehensive project. Leveraging HTML, CSS, JavaScript, and PHP, I meticulously crafted the system to offer users a secure and user-friendly online banking experience. HTML and CSS were instrumental in creating an intuitive and visually appealing user interface, while JavaScript added dynamic functionality for an interactive user experience. PHP was utilized on the server side to manage data processing and enhance the system's functionality. This project stands as a testament to my early proficiency in web development, showcasing my ability to create a functional and secure online banking system using fundamental technologies during my initial academic year."

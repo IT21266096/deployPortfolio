@@ -18,6 +18,7 @@ import {
   Divider,
 } from '@nextui-org/react';
 import ProjectsData from '../assets/project/projectsData.json';
+import { useScroll, motion, useTransform } from 'framer-motion';
 
 export default function App() {
   const [selected, setSelected] = React.useState('Web Applications');
@@ -27,6 +28,13 @@ export default function App() {
   const findData = (data, id) => data.find((item) => item.id === id);
 
   const result = findData(ProjectsData, value);
+
+  const imgHover = {
+    imgHover: {
+      scale: 1.05,
+      transition: { duration: 0.5 },
+    },
+  };
 
   return (
     <section className="w-full px-5 py-10 md:py-20 md:px-20" id="projects">
@@ -48,13 +56,15 @@ export default function App() {
           <div className="gap-6 grid grid-cols-1 md:grid-cols-3">
             {ProjectsData.map((item, index) => (
               <Card className="w-full py-4" key={index}>
-                <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
-                  <Image
-                    alt="Card background"
-                    className="object-cover rounded-xl"
-                    src={item.pic}
-                    width="100%"
-                  />
+                <CardHeader className="pb-0 pt-2 px-4 flex-col items-center overflow-hidden">
+                  <motion.div variants={imgHover} whileHover="imgHover">
+                    <Image
+                      alt="Card background"
+                      className="object-cover rounded-xl"
+                      src={item.pic}
+                      width="100%"
+                    />
+                  </motion.div>
                 </CardHeader>
                 <CardBody className="overflow-visible py-2 flex flex-col gap-2">
                   <h4 className="font-bold text-lg">{item.name}</h4>
@@ -92,13 +102,15 @@ export default function App() {
                   <div className="py-6">
                     <ModalBody>
                       <div className="w-full flex flex-col gap-1">
-                        <div className="flex justify-center items-center">
-                          <Image
-                            alt="Card background"
-                            className="object-cover rounded-xl mb-2 mx-auto"
-                            src={result.pic}
-                            width="500px"
-                          />
+                        <div className="flex justify-center overflow-hidden items-center">
+                          <motion.div variants={imgHover} whileHover="imgHover">
+                            <Image
+                              alt="Card background"
+                              className="object-cover rounded-xl mb-2 mx-auto"
+                              src={result.pic}
+                              width="100%"
+                            />
+                          </motion.div>
                         </div>
 
                         <h3 className="text-xl font-medium">{result.name}</h3>
