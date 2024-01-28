@@ -49,7 +49,7 @@ export default function App() {
         classNames={{
           tabList:
             'gap-6 w-full relative rounded-full p-2 border-b border-divider',
-          tab: 'w-[180px] text-lg px-0 h-12 outline-none',
+          tab: 'w-[140px] md:w-[180px] text-md md:text-lg px-0 h-12 outline-none',
         }}
       >
         <Tab key="Web Applications" title="Web Applications">
