@@ -95,7 +95,7 @@ export default function Area() {
             transition={{ type: 'tween', duration: 0.6 }}
             className="text-clrNormalTitle font-medium text-xl"
           >
-            Frontend Developer | UI/UX Designer | Undergraduate
+            Full-Stack Developer | UI/UX Designer | Undergraduate
           </motion.h4>
           <motion.button
             variants={buttonHover}
